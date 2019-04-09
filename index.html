@@ -8,81 +8,11 @@
       <title>
          
       </title>
-      <link rel='stylesheet' type='text/css' href='https://raw.githubusercontent.com/oberljn/oberljn.github.io/master/style.css'>
       <link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu|Ubuntu+Mono" rel="stylesheet">
    </head>
    <body>
       
       <h1>Under development</h1>
       
-      <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment (<a href="http://www.example.com/example.html">Example.com</a>), so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. <a href="https://colab.research.google.com/drive/1sgXlv-CC59RpirS5R63y3dvYYL-Cz4_Y" id="link" target="_blank">core Python code for active orders calculation</a></p>
-      
-      <h2>Level two heading</h2>
-      <p id="output"></p>
-      <ul>
-         <li>Foo</li>
-         <li>Bar</li>
-         <li>Baz</li>
-      </ul>
-      
-      <p><span class="inlineHeading">Level three heading.</span> The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains. <a href="https://github.com/oberljn/order-flow" id="link" target="_blank">github.com/oberljn/order-flow</a></p>
-      
-      <p><span class="tableTitle">Table title</span></p>
-      <table style="width: 500px;">
-         <tr>
-            <th>Key</th>
-            <th>Value</th>
-         </tr>
-         <tr>
-            <td>Foo</td>
-            <td class="num">1</td>
-         </tr>
-         <tr>
-            <td>Bar</td>
-            <td class="num">1500</td>
-         </tr>
-         <tr>
-            <td>Baz</td>
-            <td class="num">250</td>
-         </tr>
-         <tr>
-            <td>Qux</td>
-            <td>Not a number</td>
-         </tr>
-      </table>
-      <br>
-
-      <h2>Local Storage Application</h2>
-      <textarea id="textArea" onchange="updateLocStorage()">Type here to change the value in local storage (devtools > Application > Local Storage).</textarea>
-      <br>
-      <p>
-         Input: <span id="locStoreOutput"></span>
-      </p>
-      <br>
-      <button onclick="clearLocalStorage()">Clear local storage</button><span id="cleared"></span>
-      
-      <br>
-      <br>
-      <p class="footer"><a href="http://oberl.info" class="footerLink">oberl.info</a></p>
-      
-      <script>
-         var content = "JS-generated text: In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted.";
-         
-         document.querySelector("#output").innerHTML = content;
-         
-         // Get value into local storage, display it, and option to clear it
-         function updateLocStorage() {
-            localStorage.setItem("input", document.querySelector("textarea[id='textArea']").value);
-            
-            document.querySelector("span[id='locStoreOutput']").innerText = localStorage.getItem("input")
-         }
-         function clearLocalStorage() {
-            localStorage.clear()
-            var clrMsg = " Cleared. Don't believe me? Check devtools > Application > Local Storage."
-            document.querySelector("span[id='cleared']").innerText = clrMsg
-            
-         }
-      
-      </script>
    </body>
 </html> 
