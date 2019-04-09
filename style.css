@@ -1,0 +1,101 @@
+body {
+   margin: auto;
+   max-width: 800px;
+   padding: 0px 6px 0px 6px;
+   font-size: 1.1em;
+   font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Headings style */
+h1, h2, h3, h4 {
+   font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+   text-align: right;
+}
+.inlineHeading {
+   /* An in-paragraph heading ending with a "." as element <span> */
+   font-weight: 700;
+   font-family: 'Ubuntu', sans-serif;
+}
+.tableTitle {
+   font-family: 'Ubuntu', sans-serif;
+   font-style: italic;
+}
+
+
+/* Paragraph and list style */
+p {
+   text-align: justify;
+   text-justify: inter-word; /* How does this affect the style? */
+}
+ul {
+   list-style-type: square;
+}
+
+
+/* Link style */
+a {
+   color: #33aaff;
+   text-decoration: none;
+}
+a:visited {
+   color: #6611cc;
+}
+
+
+/* Table style */
+table {
+   width: 100%;
+   font-family: 'Ubuntu Mono', monospace;
+   font-size: 1.1em;
+}
+tr:nth-child(even) {
+   background-color: #f2f2f2;
+}
+th {
+   color: #ffffff;
+   background-color: #666666;
+   text-align: left;
+}
+.num {
+   text-align: right;
+}
+
+
+/* Form items */
+button, textarea {
+   border: none;
+   border-radius: 4px;
+   background-color: #666666;
+   font-family: 'Ubuntu', sans-serif;
+   padding: 5px;
+   font-size: 1em;
+}
+button {
+   background-color: #666666;
+   color: #ffffff;
+}
+textarea {
+   background-color: #f2f2f2;
+   width: 100%;
+}
+input {
+   font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* Footer home/logo link */
+.footer {
+   text-align: right;
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: 700;
+   font-size: 1.5em;
+}
+.footerLink {
+   color: #666666;
+}
+.footerLink:visited {
+   color: #666666;
+}
